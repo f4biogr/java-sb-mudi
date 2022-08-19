@@ -1,11 +1,11 @@
-version: '3.1'
+version: '3.7'
 
 services:
   db:
     image: mariadb
     restart: always
     environment:
-      MARIADB_ROOT_PASSWORD: 4672
+      MARIADB_ROOT_PASSWORD: set_password_here!
     ports:
       - 3306:3306
     networks:
